@@ -1,0 +1,48 @@
+name: "Discapacidad"
+title: "Discapacidad y Movilidad Humana"
+description: |
+  Por la inclusión de las personas con discapacidad en situación de movilidad humana en las Américas 
+output_dir: "docs"
+google_analytics: "GTM-W55KLNP"
+navbar:
+  logo:
+    image: images/logo.png
+    href: https://ageingonthemove.org
+  right:
+    - text: "Content"  
+      menu:
+      - text: "Llamado a la acción"
+        href: "index.html#llamado-a-la-acción"
+      - text: "Situación de las personas con discapacidad en las Américas"
+        href: "index.html#cuáles-son-los-riesgos-de-protección-y-desafíos-que-enfrentan-las-personas-mayores-en-situación-de-movilidad-humana-en-las-américas"
+      - text: "- La motivación de salida del lugar de origen o residencia"
+        href: "index.html#llamado-a-la-acción"
+      - text: "- La trayectoria del desplazamiento"
+        href: "index.html#llamado-a-la-acción"
+      - text: "- Situación en el lugar de acogida"
+        href: "index.html#llamado-a-la-acción"
+      - text: "Expectativas a futuro"
+        href: "index.html#llamado-a-la-acción"
+      - text: "El impacto de la COVID-19 en las personas con discapacidad en las Américas"
+        href: "index.html#llamado-a-la-acción"
+      - text: "Conclusiones"
+        href: "index.html#conclusiones"
+    - text: "Descargar"  
+      menu:
+      - text: "Resumen Ejecutivo"
+        href: "https://www.acnur.org/60ad73844.pdf#page=14"
+      - text: "Reporte"
+        href: "https://www.acnur.org/60ad73844"
+      - text: "Anexos"
+        href: "https://www.acnur.org/60ad73844.pdf#page=190"
+      - text: "Data"
+        href: "http://microdata.unhcr.org"
+      - text: "Infografia "
+        href: "https://www.acnur.org/60ad71654"
+      - text: "Media"
+        href: "https://media.unhcr.org/Package/2CZ9LOL31BHY"
+    - text: "English" 
+      href: "../index.html"
+output: distill::distill_article
+
+

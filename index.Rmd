@@ -1,0 +1,299 @@
+---
+title: "Discapacidad y Movilidad Humana"
+description: |
+  Por la inclusión de las personas con discapacidad en situación de movilidad humana en las Américas
+preview: images/macro/SPA_MACRO-1.jpg
+twitter:
+  site: "@unhcr"
+  creator: "@unhcr"
+repository_url: https://github.com/unhcr-americas/ageingonthemove  
+output: 
+  distill::distill_article:
+    theme: theme.css
+    toc: false
+    toc_float: false
+---
+
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+```{=html}
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+```
+```{=html}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+```
+```{=html}
+<script type='text/javascript'>
+$(document).ready(function() {
+  $('.tweetable').each(function() {
+     var sentence = $(this);
+     var permalink = sentence.parents('.post-outer').find('.timestamp-link').attr('href') || $(location).attr('href');
+     var tweetable = sentence.text();
+     var result = encodeURIComponent(tweetable);
+     var link = encodeURIComponent(permalink);
+     
+sentence.wrap('<a class="tweet-link" href="https://twitter.com/intent/tweet?text=' + result + " " + link +'"></a>');
+    });
+});
+</script>
+```
+<!-- Google Tag Manager -->
+
+```{=html}
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W55KLNP');</script>
+```
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+
+<noscript>
+
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W55KLNP" height="0" width="0" style="display:none;visibility:hidden">
+
+</iframe>
+
+</noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+library(knitr)
+
+library(metathis)
+
+meta() %>%
+  meta_social(
+    title = "A dignity claim: Ageing on the move",
+    description = "Making ageing persons visible to enhance comprehensive actions in humanitarian responses",
+    url = "https://ageingonthemove.org",
+    image = "https://raw.githubusercontent.com/unhcr-americas/ageingonthemove/main/images/macr/SPA_MACRO-1.jpg",
+    image_alt = "A dignity claim: Ageing on the move",
+    og_type = "website",
+    og_author = "ACNUR",
+    twitter_card_type = "summary",
+    twitter_creator = "@acnur"
+  )
+
+```
+
+## Introducción
+
+Debido a diversos factores, la información sobre la situación de las personas con discapacidad refugiada, desplazada y migrante es limitada en la región, lo que genera una serie de vacíos que impacta en los planes de respuesta y acción.
+
+El estudio regional muestra un panorama sobre la situación y las necesidades prioritarias de las personas con discapacidad refugiadas, desplazadas y migrantes en la región. Permitiendo desarrollar una hoja de ruta con capacidades regionales de protección que ayude a fortalecer la inclusión de las personas con discapacidad en situación de movilidad humana dentro de las políticas y planes de los Estados y de las organizaciones humanitarias.
+
+<aside>Un total de 744 personas con discapacidad, familiares y/o personas de apoyo y actores gubernamentales y humanitarios fueron consultados en siete países de América Latina, a través de entrevistas, grupos focales, historias de vida y encuesta regional en línea.</aside>
+
+La recolección de información se desarrolló en Colombia, Chile, Ecuador, Perú, Venezuela, México y Centroamérica, identificando las condiciones específicas en los diversos contextos de desplazamiento que existen en la región.
+
+El estudio comprende los vacíos y desafíos que enfrentan los Estados y las organizaciones humanitarias, muestra las barreras y los riesgos de protección que pasan las personas con discapacidad durante las diversas etapas del desplazamiento, que va desde la salida de su país de origen hasta las expectativas a futuro. También, nos brinda algunos elementos que nos permite comprender el impacto de la pandemia de COVID-19 en las personas con discapacidad.
+
+Este estudio regional fue realizado por organizaciones de personas con discapacidad, liderado por la Red Latinoamericana de Organizaciones No Gubernamentales de Personas con Discapacidad y sus Familias ([RIADIS](http://www.riadis.org/)) y elaborado conjuntamente con la Coalición México por los Derechos de las Personas con Discapacidad, México ([COAMEX](https://coalicionmexico.org.mx)); la Sociedad y Discapacidad, Perú ([SODIS](https://sodisperu.org/)); y Humanity&Inclusion [HI](https://hi.org/en/index), Perú; con el apoyo de la Agencia de la ONU para los Refugiados ([ACNUR](https://www.acnur.org/)). Discapacidad y Movilidad Humana, responde a los compromisos de ACNUR en promover respuestas integrales y fortalecer la participación de las personas con discapacidad en situación de desplazamiento forzado, asegurando su protección, integración y la búsqueda de soluciones.
+
+::: {.parallax .parallax1}
+::: {.parallax-content}
+## Se hace un llamado a la acción
+:::
+:::
+
+Gobiernos
+
+-   Incluir en sus leyes nacionales vigentes los acuerdos internacionales firmados en materia de derechos humanos, permitiéndole a las personas con discapacidad en situación de movilidad humana garantizar el ejercicio de sus derechos conforme a la Convención de los Derechos de las Personas con Discapacidad.
+
+-   A promover y fortalecer en las políticas y acciones de los Estados un enfoque inclusivo y justo para las personas con discapacidad, que cumplan con las necesidades específicas de las personas refugiadas, desplazadas y migrantes con discapacidad.
+
+-   Al fortalecer los sistemas de registro y los procesos de entrevistas para una identificación, registro y desagregación de los datos en materia de discapacidad. La ausencia de datos desagregados deja atrás a las personas con discapacidad.
+
+Organizaciones Humanitarias
+
+-   A fortalecer el trabajo con las diferentes partes desde la perspectiva de la discapacidad en la atención y servicios que prestan, asegurando accesibilidad física, comunicacional y otras, en los planes de respuesta, más allá de la asistencia material.
+
+-   Tanto a los gobiernos y a los actores humanitarios requieren fortalecer las capacidades del recurso humano de las instituciones estatales y de las organizaciones, para que puedan abordar la temática de la discapacidad con mejores herramientas y faciliten los procesos de atención, identificación e inclusión de las personas con discapacidad.
+
+-   A todos los actores en todos los niveles, usar herramientas de comunicación y formatos que sean accesibles para garantizar que la información y los servicios lleguen a personas con diferentes tipos de discapacidad o discapacidades múltiples.
+
+-   A visibilizar las capacidades de las personas con discapacidad y a trabajar en procesos de integración amplios.
+
+::: {.parallax .parallax2}
+::: {.parallax-content}
+## Situación de las personas con discapacidad en las Américas
+:::
+:::
+
+### La motivación de salida del lugar de origen o residencia
+
+El acceso limitado a los servicios de salud como la habilitación y rehabilitación, el alto costo de dispositivos de apoyo, la falta de acceso al empleo y pérdida de capacidad adquisitiva, así como la inseguridad a la integridad de las personas, debido a la violencia, persecución, conflictos, delincuencia y amenazas que ponen en peligro su vida y la de su familia, constituyen las principales razones de salida de las personas con discapacidad.
+
+> "Por la situación económica del país, por temas de salud, por seguridad personal, mi esposo estaba haciendo campaña y lo amenazaron." (Entrevista mujer con discapacidad venezolana en Ecuador, 2020).
+
+Las personas consultadas provenientes de Venezuela manifestaron que las condiciones actuales del país han llevado a una precarización de las condiciones de vida que se traduce en una vulneración a sus derechos humanos. Para las personas con alguna discapacidad, no solo se trata de la satisfacción de necesidades básicas sino de la imposibilidad de acceder a un sistema de salud y rehabilitación que responda a sus necesidades y asegure condiciones de vida dignas. Adicionalmente, situaciones de violencia y amenazas que ponen en riesgo la integridad y seguridad de las personas.
+
+> "...La cuestión económica allá en Venezuela se hacía cada vez más crítica; también en cuestiones de salud: ya mi hija no estaba recibiendo terapias como cuando inició, como cuando tenía tres meses. Ya no había fisiatras, no había nadie que le pudiera hacer las terapias como ella las amerita; y en cuestiones económicas como todos, que no me alcanza para pagar una consulta, para comprar los tratamientos..."
+> (Entrevista mamá de hija con discapacidad venezolana en Colombia, 2020).
+
+Las personas de países centroamericanos se ven forzadas a desplazarse, tanto a lo interno de sus fronteras como fuera de ellas, por razones de violencia, persecución, inseguridad a consecuencia del control que ejercen los grupos criminales y pandillas. También, estos factores se incrementan por la falta de oportunidades, la pobreza y los desastres naturales.
+
+<aside>
+De acuerdo con la encuesta en línea, el 42.5% de las personas consultadas salieron de sus países motivados por la violencia y las amenazas de las que fueron víctimas.
+</aside>
+
+De las personas con discapacidad consultadas algunas identificaron que tuvieron muy poca o ninguna preparación antes de salir de su país de origen, en otros casos la decisión fue repentina por varias razones, principalmente por amenazas y persecución que ponía en peligro su vida. En esta situación las personas no tienen documentos o no cumplen con los requisitos impuestos en algunos países y se ven forzadas a cruzar las fronteras de forma irregular. Por otro lado, otras personas con discapacidad consultadas manifestaron haber recaudado dinero a través de ahorros y venta de objetos personales o incluso préstamos para lograr financiar su viaje.
+
+El 77.2% de las personas con discapacidad consultadas indicaron que no recibieron ningún tipo de apoyo para salir del país, apenas el 18.9% mencionaron que recibieron apoyo económico de sus amistades y familiares, que en su mayoría se encuentran fuera del país y es a donde deciden desplazarse.
+
+```{r, layout="l-body"}
+#include_graphics("images/info/condition.png", dpi = NA)
+```
+
+
+### La trayectoria del desplazamiento
+
+La evaluación identifica tres riesgos principales durante el trayecto o tránsito de las personas con discapacidad asociados a: la inseguridad y violencia; discriminación y la falta de accesibilidad.
+
+Los riesgos asociados a la inseguridad y violencia se presentan principalmente a las mujeres, niñas y niños con discapacidad, quienes están mayormente expuestos a situaciones de abuso, violencia de género y violencia sexual por parte de grupos armados, pandillas, crimen organizado u otros.
+
+Los riesgos aumentan cuando el tránsito es sin documentación obligando a al ingreso por pasos irregulares, exponiéndoles a robos, abusos, violencia o extorsión de los grupos criminales que están a lo largo de la ruta.
+
+> "...crucé [la frontera] por trocha, con la niña de un año con discapacidad y el bebé de dos meses..." 
+> (Entrevista a una madre de un hijo con discapacidad venezolano en Ecuador, 2020).
+
+Debido a la situación de inseguridad y violencia la mayoría de las personas entrevistadas en los países participantes mencionan que desconocían qué pasos debían seguir para hacer una denuncia o prefirieron no acudir a la policía local y permanecer en el anonimato como medida de protección. La falta de una ruta de atención durante su desplazamiento incrementa los riesgos de protección existentes para una persona con discapacidad.
+
+<aside>El 40.2% de las personas con discapacidad consultadas indican que sí han enfrentado situaciones de riesgo durante su desplazamiento.</aside>
+
+El 62% de las personas encuestadas han sido discriminadas con acciones y actitudes. Se evidenció que las personas con discapacidad en situación de movilidad humana sufren de una doble discriminación, ya sea por su condición de discapacidad o por su nacionalidad en los países de tránsito y de acogida, construyendo una barrera.
+
+Hay una falta de accesibilidad en el transporte para la movilización, los entornos durante el viaje, las instalaciones físicas de las organizaciones humanitarias y de gobierno, y en el acceso a la información. Al menos la mitad de las personas en situación de movilidad humana con discapacidad y sus familiares mencionaron que durante su trayecto en los países de tránsito y de destino no recibieron información sobre sus derechos y servicios disponibles en formatos que fueran accesibles.
+
+Durante los últimos años muchas de las personas con discapacidad consultadas en México y Centroamérica manifestaron que el desplazamiento a través de las denominadas "caravanas migrantes" resulta mucho más fácil, ya que en cierta medida viajan acompañados/as y reciben apoyo en ciertos momentos durante el trayecto donde la movilización por su propia cuenta sería compleja.
+
+Existe una prevalencia de discapacidad que se adquiere en el tránsito, principalmente en la ruta hacia México y Estados Unidos debido a la utilización de trenes de carga conocido como "la bestia".
+
+SUGERENCIA: SOCIAL CARD SOBRE LA DISCAPACIDAD ADQUIRIDA
+
+Más de 400 personas en tránsito por México sufrieron lesiones graves al caerse del tren comúnmente conocido como "La Bestia"
+
+### Situación en el lugar de acogida
+
+Las barreras sociales, culturales, políticas, comunicacionales, actitudinales, ambientales e institucionales limitan su inclusión en los países de acogida de las personas con discapacidad. Algunos ejemplos son la falta de empleos, la discriminación por nacionalidad y discapacidad, acceso a procedimientos de asilo y procesos de regularización, a la justicia y otras acciones de protección.
+
+Uno de los principales obstáculos a sus derechos es la dificultad de acceder a la certificación de la discapacidad en los países de acogida que tiene un impacto para poder tener acceso a los sistemas de salud, educación y protección social.
+
+El 61% de personas con discapacidad tuvieron acceso a los servicios de salud pública en los países de acogida. Sin embargo, el 56% manifestaron estar medianamente a totalmente insatisfechos por los servicios de salud recibidos.
+
+El 28% de las personas refugiadas, desplazadas y migrantes con discapacidad, familiares y/o personas de apoyo están desempleadas; el 8% tiene un empleo formal; el resto realizan trabajos eventuales o temporales, como ventas ambulantes, o han iniciado algún emprendimiento. En Centroamérica, 2 de cada 3 personas se han visto obligadas a realizar actividades económicas primarias de bajos ingresos y sin prestaciones laborales.
+
+"Ahora estoy vendiendo cosas en la calle, café (...) lo que vendo es para comer nada más, para subsistir, nada más." (Entrevista hombre con discapacidad física venezolano en Perú, 2020).
+
+<aside>El 66% de las personas encuestadas menciona que no recibió asistencia humanitaria</aside>
+
+El 81% de las personas encuestadas afirman que los niños, niñas y adolescentes con discapacidad si tienen acceso a la educación pública, sin embargo, el 55% de las personas consultadas consideran que no un sistema educativo público incluyente, que no reconoce las necesidades de los niños, niñas y adolescentes con discapacidad.
+
+Más del 50% de las personas encuestadas no pueden pagar el servicio de conectividad a internet, el 18% no tiene un teléfono móvil, y el 16% no cuenta con las habilidades para manejar y usar las aplicaciones.
+
+Recurrentemente se destaca la poca accesibilidad en los canales de comunicación de las organizaciones humanitarias y de las instituciones del Estado. Se evidencia la falta de intérpretes de lengua de señas, local y del país donde proviene la persona en situación de movilidad humana, y en la mayoría de los casos la forma de informar o comunicar no es de acceso universal.
+
+El 86% de las personas con discapacidad encuestadas manifiestan que participan medianamente o no participan en las consultas o procesos de toma de decisiones. Se debe trabajar en propiciar los espacios de participación para las personas con discapacidad a fin de que su voz sea escuchada.
+
+SUGERENCIA: VIDEO O GIF
+
+::: {.parallax .parallax3}
+::: {.parallax-content}
+## Expectativas hacia el futuro
+:::
+:::
+
+Las expectativas inmediatas de las personas encuestadas giran en torno a dos factores fundamentales: mejorar sus condiciones económicas a través del empleo o emprendimientos y regularizar su situación legal en el país de acogida.
+
+El 52% de las personas encuestadas se siente optimista sobre las expectativas hacia el futuro, mientras que el 46% percibe un futuro incierto con pocas posibilidades.
+
+Algunas de las personas con discapacidad en situación de movilidad humana consultadas, manifestaron que tienen la expectativa de algún día poder regresar a su país de origen, cuando las condiciones que dieron paso a su salida cambien y sientan que puedan construir una vida.
+
+"Yo me imagino un futuro en mi país, que hayan condiciones para poder estabilizarse y que no sea tan complicado cubrir las necesidades." (Entrevista a un hombre con discapacidad visual venezolano en Chile, 2020).
+
+Pese a las diversas barreras identificadas hacia las personas con discapacidad en situación de movilidad humana, existen algunos elementos facilitadores, tales como: redes de apoyo, la priorización en los programas de asistencia humanitaria, la articulación del trabajo para brindar medidas de protección y la solidaridad y apoyo de las comunidades de acogida.
+
+SUGERENCIA WEBSTORY + VIDEO (LA UBICACIÓN DE ESTE RECURSO DEPENDERA DEL CONTENIDO DEL VIDEO)
+
+## El impacto de la COVID-19 en las personas con discapacidad en las Américas
+
+Se identificó que la principal problemática provocada por la pandemia es la pérdida de fuentes de ingresos, debido a que la mayoría de las personas con discapacidad en situación de movilidad humana se dedicaba al trabajo informal. Esto trajo consigo que las personas refugiadas y migrantes con discapacidad tuvieran acceso limitado a la alimentación, los medicamentos y el pago del alquiler elevando los riesgos de desalojos.
+
+Más del 50% de las personas encuestadas mencionaron que no recibieron asistencia humanitaria durante la pandemia. De las personas que recibieron asistencia el 50% considera que no ha sido inclusiva, y no toma en cuenta las necesidades específicas de las personas con discapacidad. 
+
+Las medidas de distanciamiento han representado restricciones en la movilidad de las personas con discapacidad visual y auditiva debido a la pérdida de apoyo durante el desplazamiento por las ciudades. El confinamiento afectó a la salud mental de las personas con discapacidad, provocando depresión, ansiedad y tensión en las relaciones interpersonales a lo interno de las familias.
+
+<aside>Para algunas de las personas con discapacidad con enfermedades crónicas o con familiares/personas de apoyo con enfermedades crónicas, ven aún más limitada su capacidad de movilidad lo que conlleva a un nivel mayor de dependencia hacia terceros.</aside>
+
+Sin duda alguna, con el incremento de la utilización de mecanismos virtuales como forma de comunicación remota durante la pandemia, se visibiliza la brecha en el acceso a la tecnología, acceso a los servicios de internet y telefonía, así como la falta de formatos accesibles para los diferentes tipos de discapacidad.
+
+
+::: {.parallax .parallax3}
+::: {.parallax-content}
+## Conclusiones y Recomendaciones
+:::
+:::
+
+<br >
+
+
+
+El estudio regional nos permite conocer e identificar vacíos y oportunidades para trabajar de forma integral en favor y con las personas con discapacidad refugiadas, desplazadas y migrantes. Entre los principales puntos se consideran:
+
+Los Estados:
+
+ *  Tienen el desafío de aplicar la normativa vigente y los acuerdos internacionales firmados, para garantizar a las personas con discapacidad en situación de movilidad humana el ejercicio de sus derechos humanos conforme a la Convención de los Derechos de las Personas con Discapacidad. 
+
+ *  Ajustar e incorporar el enfoque de inclusión e interseccionalidad en las políticas de atención y protección existentes a personas refugiadas, desplazadas y migrantes con discapacidad. 
+
+ *  Incrementar las oportunidades de capacitación y autosuficiencia de las personas con discapacidad. 
+
+ *  Trabajar en la prevención de la xenofobia y la discriminación por discapacidad y otros factores. 
+
+ *  Procurar la accesibilidad comunicacional para todas las personas con discapacidad para asegurar el conocimiento de la información y la participación. 
+
+Las organizaciones humanitarias y de gobierno:
+
+ *  El enfoque de la interseccionalidad debe ser parte de las líneas de trabajo de las organizaciones humanitarias y de los gobiernos. 
+
+ *  Recolectar datos desagregados sobre las personas refugiadas, desplazadas y migrantes con discapacidad para el diseño, implementación, y seguimiento de los programas de respuesta y protocolos de atención basadas en las necesidades específicas de las personas con discapacidad.   
+
+ *  Desarrollar y/o fortalecer las capacidades del personal de las organizaciones humanitarias y de gobierno para garantizar la atención a personas en movilidad humana con discapacidad. Es necesario trabajar en procesos de capacitación, concientización y formación del personal de las organizaciones humanitarias. 
+
+ *  Fortalecer la cooperación estratégica entre los diferentes actores a nivel nacional y regional que facilite el trabajo coordinado y el intercambio de experiencias y buenas prácticas, así como compartir, contribuir y usar de forma efectiva y eficiente los recursos disponibles para garantizar la atención a las personas refugiadas, desplazadas y migrantes con discapacidad. 
+
+ *  Desarrollar investigaciones que den más conocimientos sobre las barreras que existen, como profundización en la violencia de género, para tener mejores herramientas al momento de dar respuestas a estos temas de movilidad humana de las personas con discapacidad. 
+
+ *  Fomentar la participación activa de las personas con discapacidad en los programas que desarrollen las organizaciones humanitarias y los gobiernos. 
+
+ *  Incidir en políticas que permitan mejorar el acceso a la documentación de la certificación de la discapacidad.  
+
+ *  Garantizar atención humanitaria a las personas con discapacidad y a sus familias. 
+
+ *  Se requiere la elaboración de protocolos de atención en conjunto con las organizaciones de personas con discapacidad. 
+
+Las personas en movilidad humana con discapacidad:
+
+ *  Garantizar la participación de las personas en movilidad humana con discapacidad en el diseño de programas de respuesta, y su posterior implementación, monitoreo y rendición de cuentas. 
+
+ *  Inclusión de las personas en movilidad humana con discapacidad en programas de construcción de capacidades, proyectos productivos y de inclusión laboral para fortalecer la autonomía y autosuficiencia de las personas. 
+
+```{js, echo=FALSE}
+(function() {  
+  for (const link of document.getElementsByTagName('a')) {  
+    if (/^(https?:)?\/\//.test(link.getAttribute('href'))) link.target = '_blank';  
+  }  
+})();  
+```
